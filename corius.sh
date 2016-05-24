@@ -2,7 +2,8 @@
 
 
 npm-register.sh &&
-export PATH=/opt/needlesslaser/node-v6.2.0-linux-x64:${PATH}:${PWD}/node_modules/.bin &&
-npm install gulp jspm yo generator-corius &&
+export PATH=/opt/needlesslaser/node-v6.2.0-linux-x64/bin:${PATH} &&
+# install-globals.sh &&
+npm install generator-corius &&
 yo corius &&
 true
